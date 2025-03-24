@@ -1,8 +1,8 @@
-- name: Frontend setup
+- name: Roboshop setup
   hosts: all
   become: true
   roles:
-    - frontend
+    - "{{ Component_name }}"
 
 
 
