@@ -9,8 +9,8 @@
 
 - name: Copy Nginx config file
   ansible.builtin.copy:
-    src: nginx.conf
-    dest: /etc/nginx/nginx.conf
+    src: default.conf
+    dest: /etc/nginx/default.conf
 
 - name: Remove old app content
   ansible.builtin.file:
